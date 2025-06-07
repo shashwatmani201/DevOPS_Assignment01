@@ -1,0 +1,8 @@
+sudo dscl . -create /Groups/internGroup
+sudo dscl . -create /Users/internUser
+sudo dscl . -passwd /Users/internUser your_password
+sudo createhomedir -c -u internUser
+id internUser
+sudo dseditgroup -o edit -a internUser -t user sudo
+sudo dscl . -delete /Users/internUser
+sudo dscl . -delete /Groups/internGroup
