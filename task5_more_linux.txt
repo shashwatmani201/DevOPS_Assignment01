@@ -1,0 +1,4 @@
+df -h
+free -m
+top -n 1
+ps aux | grep bash
