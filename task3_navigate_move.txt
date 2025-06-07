@@ -1,0 +1,7 @@
+mkdir example
+touch example/file1.txt
+ls example
+mv example/file1.txt ./file1_moved.txt
+ls
+rm file1_moved.txt
+rmdir example
