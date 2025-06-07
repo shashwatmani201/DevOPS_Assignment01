@@ -1,0 +1,1 @@
+Created users and groups; practiced useradd, usermod, userdel commands.
