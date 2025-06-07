@@ -1,0 +1,7 @@
+mkdir testfolder
+cd testfolder
+touch file1.txt file2.txt
+ls -l
+rm file2.txt
+cd ..
+rm -r testfolder
